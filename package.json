@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-otp-generator",
+  "version": "1.0.0",
+  "description": "NodeJs OTP genrator and verifier",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shravanatirtha/nodejs-otp-generator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "otp",
+    "email",
+    "mobile"
+  ],
+  "author": "Shravana Tirtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shravanatirtha/nodejs-otp-generator/issues"
+  },
+  "homepage": "https://github.com/shravanatirtha/nodejs-otp-generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fast-two-sms": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "mongoose": "^6.4.5",
+    "morgan": "^1.10.0"
+  }
+}
